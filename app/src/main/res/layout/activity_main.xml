@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/coffee"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Имя"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Пароль"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/open_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть"
+        android:layout_margin="10dp"/>
+</LinearLayout>
