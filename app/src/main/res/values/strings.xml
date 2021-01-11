@@ -1,15 +1,20 @@
 <resources>
     <string name="app_name">Cafe Order</string>
     <string name="enter_data">Введите данные</string>
-    <string name="hello_what_your_drink">Привет, клиент, что будете заказывать?</string>
+    <string name="hello_what_your_drink">Привет, %s, что будете заказывать?</string>
     <string name="tea">Чай</string>
     <string name="coffee">Кофе</string>
-    <string name="add_to_drink">Что добавить в ваш чай?</string>
+    <string name="add_to_drink">Что добавить в ваш %s?</string>
     <string name="milk">Молоко</string>
     <string name="sugar">Сахар</string>
     <string name="lemon">Лимон</string>
     <string name="your_drink_type">Выберите тип напитка</string>
     <string name="order_button">Order button</string>
+    <string name="order">Заказ принят:\nИмя — %s\nПароль — %s\nНапиток — %s\nИнгредиенты — %s\nТип напитка — %s.</string>
+    <string name="password">Пароль</string>
+    <string name="name">Имя</string>
+    <string name="open">Открыть</string>
+    <string name="cafe_logo">Cafe logo</string>
     <string-array name="tea_items">
         <item>Черный</item>
         <item>Зеленый</item>

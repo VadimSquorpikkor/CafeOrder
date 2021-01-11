@@ -6,6 +6,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
+        android:id="@+id/hello_client"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/hello_what_your_drink"
@@ -37,6 +38,7 @@
         </RadioGroup>
 
     <TextView
+        android:id="@+id/add_to_drink"
         android:text="@string/add_to_drink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -87,9 +89,9 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_margin="10dp"
-        android:entries="@array/tea_items"
         android:background="@color/green"
         android:theme="@style/spinnerTheme"
+        android:entries="@array/tea_items"
         />
 
     <Spinner
@@ -97,9 +99,9 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_margin="10dp"
-        android:entries="@array/coffee_items"
         android:background="@color/green"
         android:theme="@style/spinnerTheme"
+        android:entries="@array/coffee_items"
         />
 
     <ImageView

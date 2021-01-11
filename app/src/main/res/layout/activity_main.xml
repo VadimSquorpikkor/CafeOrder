@@ -6,25 +6,27 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:src="@drawable/coffee"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:contentDescription="@string/cafe_logo" />
 
     <EditText
         android:id="@+id/name_text"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:hint="Имя"
-        android:textSize="20dp"
-        android:layout_margin="10dp"/>
+        android:hint="@string/name"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/password_text"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:hint="Пароль"
-        android:textSize="20dp"
+        android:hint="@string/password"
+        android:textSize="20sp"
         android:inputType="textPassword"
         android:layout_margin="10dp"/>
 
@@ -32,6 +34,6 @@
         android:id="@+id/open_order"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Открыть"
+        android:text="@string/open"
         android:layout_margin="10dp"/>
 </LinearLayout>
